@@ -5,22 +5,22 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <!-- Nuget Package properties -->
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageId>AspNetCore.Identity.MongoDbCore</PackageId>
-    <Authors>Alexandre Spieser</Authors>
-    <PackageTitle>AspNetCore.Identity.MongoDbCore</PackageTitle>
+    <PackageId>AspNetCore.Identity.MongoDbCore.Fork</PackageId>
+    <Authors>Alexandre Spieser, Daniel Romanowski</Authors>
+    <PackageTitle>AspNetCore.Identity.MongoDbCore.Fork</PackageTitle>
     <Description>A MongoDb UserStore and RoleStore adapter for Microsoft.Extensions.Identity.Core 3.1.</Description>
     <PackageLicenseUrl>http://www.opensource.org/licenses/mit-license.php</PackageLicenseUrl>
     <PackageProjectUrl>http://www.opensource.org/licenses/mit-license.php</PackageProjectUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <PackageReleaseNotes>Release notes are at Release notes are at https://github.com/alexandre-spieser/AspNetCore.Identity.MongoDbCore/releases</PackageReleaseNotes>
+    <PackageReleaseNotes>Release notes are at Release notes are at https://github.com/daniellor/AspNetCore.Identity.MongoDbCore/releases</PackageReleaseNotes>
     <Copyright>Copyright 2021 (c) Alexandre Spieser. All rights reserved.</Copyright>
     <PackageTags>aspnetcore mongo mongodb identity membership</PackageTags>
-    <RepositoryUrl>https://github.com/alexandre-spieser/AspNetCore.Identity.MongoDbCore</RepositoryUrl>
+    <RepositoryUrl>https://github.com/daniellor/AspNetCore.Identity.MongoDbCore</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <!-- Versioning -->
-    <PackageVersion>3.1.2</PackageVersion>
-    <Version>3.1.2</Version>
-    <FileVersion>3.1.2</FileVersion>
+    <PackageVersion>4.1.0</PackageVersion>
+    <Version>4.1.0</Version>
+    <FileVersion>4.1.0</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup>
