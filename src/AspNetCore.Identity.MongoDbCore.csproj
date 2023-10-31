@@ -4,7 +4,7 @@
     <TargetFrameworks>netcoreapp3.1;netstandard2.1</TargetFrameworks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <!-- Nuget Package properties -->
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageId>AspNetCore.Identity.MongoDbCore.Fork</PackageId>
     <Authors>Alexandre Spieser, Daniel Romanowski</Authors>
     <PackageTitle>AspNetCore.Identity.MongoDbCore.Fork</PackageTitle>
