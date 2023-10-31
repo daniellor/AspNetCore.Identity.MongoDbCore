@@ -458,7 +458,7 @@ namespace AspNetCore.Identity.MongoDbCore
             }
             if (user.Roles.Any())
             {
-                return await MongoRepository.ProjectManyAsync<TRole, string, TKey>(x => user.Roles.Contains(x.Id), x => x.Name);
+                return (await MongoRepository.GetAllAsync<TRole, TKey>(e => user.Roles.Contains(e.Id))).Select(e => e.Name).ToList();
             }
             return new List<string>();
         }
